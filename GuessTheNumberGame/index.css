@@ -1,0 +1,79 @@
+body{
+    padding: 20px;
+    font-family: "Lucida Grande", sans-serif;
+    color: #fff;
+    background-color: #222
+}
+
+.header-top{
+    display: flex;
+    justify-content:space-between
+}
+
+.again-btn{
+    font-weight:bold;
+    font-family: "Lucida Grande", sans-serif;
+    margin-top:10px;
+    height:40px;
+    width:100px;
+}
+
+header{
+    text-align: center;
+}
+
+.divider{
+    background-color: white;
+    color:black;
+    height: 8px;
+}
+
+.number{
+    transform: translate(-20%, -40%);
+    font-size:30px;
+    margin-left:auto;
+    margin-right:auto;
+    width:60px;
+    height: 40px;
+    font-weight:bold;
+    background-color: white;
+}
+
+.left{
+    padding: 70px;
+    margin-top: 40px;
+}
+
+.guessed-number{
+    text-align: center;
+    color: white;
+    background: none;
+    font-size:20px;
+    height: 40px;
+    width: 100px;
+    border: 4px solid #eee;
+}
+
+.check-button{
+    font-weight:bold;
+    font-family: "Lucida Grande", sans-serif;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 40px;
+    width: 80px;
+}
+
+.section-container{
+    display: flex;
+    justify-content:space-around;
+}
+
+.right{
+    padding: 80px;
+}
+
+.message{
+    font-weight:bold;
+    font-size:20px;
+}
+
